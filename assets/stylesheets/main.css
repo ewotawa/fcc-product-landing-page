@@ -175,6 +175,37 @@ section {
              0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 
+/* footer styling */
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+
+footer p {
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: hsl(45, 90%, 50%);
+}
+
+#my-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+#my-links li {
+  padding: 10px 0 10px 0;
+}
+
+input {
+  color: white;
+}
+
+
 /* media queries */
 
 @media screen and (max-width: 800px) {
