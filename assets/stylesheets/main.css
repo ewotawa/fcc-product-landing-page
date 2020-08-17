@@ -205,6 +205,9 @@ input {
   color: white;
 }
 
+#submit {
+  color: black;
+}
 
 /* media queries */
 
