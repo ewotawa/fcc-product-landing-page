@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- freeCodeCamp test -- see CodePen -->
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" async></script> -->
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Miltonian&family=Miltonian+Tattoo&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    
+    <!--Individual Stylesheet-->
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+  </head>
+    
+  <body class="background-image">
+    
+    <header id="header">
+      
+      <!-- navigation bar -->
+      <nav id="nav-bar" aria-label="Main" class="flex-box">
+        <img id="nav-img" class="flex-item" src="https://freesvg.org/img/pumpkim.png">
+        
+        <p class="flex=item nav-title">Jack's Lanterns</p>
+        
+        <div class="flex-item flex-right">
+          <ul id="menu" class="flex-box">
+            <li><a href="#our-story" class="nav-link">Our Story</a></li>
+            <li><a href="#our-products" class="nav-link">Our Products</a></li>
+            <li><a href="#connect" class="nav-link">Connect</a></li>
+          </ul>
+        </div>
+
+      </nav>
+      
+      <!-- header -->
+      <div class="header-logo flex-box">
+        <img id="header-img" src="https://freesvg.org/img/pumpkim.png">
+        <h1>Jack's Lanterns</h1>
+      </div>
+      
+    </header>
+    
+    <main>
+      <section id="our-story">
+        <h2>Our Story</h2>
+        <p>We founded Jack's Lanterns in 2006 to provide premium, artisan-carved pumpkins to our community in Oakville, Mo. Over the years, our reach has grown to the St. Louis Metro area, and we now not only offer our carved pumpkins but also carve other fruits and vegetables and will style your display on-site.</p>
+        <p>Jack's Lanterns draws its designs from a variety of sources. We can provide a Victorian greeting card tableau, a family-friendly haunted hayloft, and a variety of other arrangements.</p>
+        <p>See the video below for some inspiration for your next get-together. Make your Halloween a holiday to remember with Jack's Lanterns.</p>
+        <iframe id="video" src="https://www.youtube-nocookie.com/embed/EH4jLBPMWvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+      
+      <section id="our-products">
+        <h2>Our Products</h2>
+        <div class="flex-box-wrap product-container">
+          <div id="product1" class="product-card">
+            <img class="product-pumpkin" src="https://freesvg.org/img/liftarn_Pumpkin_lantern.png">
+            <h3>Traditional Pumpkin Carving</h3>
+            <p>Decorate your home with a classic, grinning Jack-o-Lantern.</p>
+          </div>
+          <div id="product2" class="product-card">
+            <img class="product-pumpkin" src="https://freesvg.org/img/liftarn_Pumpkin_lantern.png">
+            <h3>Specialty Carving</h3>
+            <p>Surprise your Halloween guests with an old-school carved turnip or a trendy carved pineapple.</p>
+          </div>
+          <div id="product3" class="product-card">
+            <img class="product-pumpkin" src="https://freesvg.org/img/liftarn_Pumpkin_lantern.png">
+            <h3>Halloween Tableau</h3>
+            <p>Take your holiday decorations to the next level with our custom design services.</p>
+          </div>
+        </div>
+      </section>
+      
+      <section id="connect">
+        <h2>Connect with Us</h2>
+        <p>Join our e-mail list for news, design ideas, and access to special promotions. We promise not to share your contact information.</p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
+          <label for="email" class=".form-style">Your e-mail address: </label>
+          <input type="email" id="email" name="email" placeholder="jack@jackslanterns.com" class="form-style" required></input>
+          <input type="submit" id="submit" class="submit-box-style form-style" value="Join">
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
